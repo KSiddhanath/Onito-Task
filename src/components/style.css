@@ -1,0 +1,23 @@
+.main {
+  margin: auto;
+  margin-top: 20px;
+  padding: 30px;
+  width: 50%;
+  height: auto;
+  background-color: lightgray;
+}
+
+.form-group.required .control-label:after {
+  content:"*";
+  color:red;
+}
+
+table tr {
+  counter-increment: rowNumber;
+}
+
+table tr td:first-child::before {
+  content: counter(rowNumber);
+  min-width: 1em;
+  margin-right: 0.5em;
+}
