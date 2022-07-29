@@ -172,9 +172,6 @@ export default function Receipt() {
               : ''}
           </tbody>
         </table>
-        {/* <button onClick={() => localStorage.removeItem('session')}>
-          Clear Data
-        </button> */}
       </div>
     </div>
   );
